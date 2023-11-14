@@ -1,0 +1,7 @@
+{
+  "name": "FindAFilm",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
