@@ -6,9 +6,11 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LoggedComponent } from './Logged/logged/logged.component';
+import { Pelicula1Component } from './Peliculas/pelicula1/pelicula1.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, LoggedComponent, Pelicula1Component],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
   bootstrap: [AppComponent],
